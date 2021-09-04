@@ -62,6 +62,7 @@ publishing {
     
   repositories {
     maven {
+      name = "GitHubPackages"
       url = uri("https://maven.pkg.github.com/ext540/supreme-guide")
       
       credentials {

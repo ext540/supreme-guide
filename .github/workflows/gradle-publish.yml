@@ -18,6 +18,6 @@ jobs:
           java-version: '16'
           distribution: 'zulu'
       - name: Publish package
-        run: gradle publish
+        run: gradle publish -stacktrace
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -3,4 +3,5 @@ before_install:
   - source install-jdk.sh --feature 16
 
 install:
+  - chmod +x gradlew
   - ./gradlew build
